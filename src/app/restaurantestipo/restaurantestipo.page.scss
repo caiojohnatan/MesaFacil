@@ -1,0 +1,84 @@
+ion-content.background{
+    --ion-background-color:#121212}
+
+ion-header.header{margin-top: 3%;}
+
+ion-menu.menu{height: 100px;
+width: 100px;}
+
+
+#card1{
+    color: white;
+    background-image: url('../Imagens/todos.jpg');
+    width: 150px;
+    height: 150px;
+    
+}
+
+#card2{
+    color: white;
+    background-image: url('../Imagens/brasileiro.jpg');
+    width: 150px;
+    height: 150px;
+    
+}
+
+#card3{
+    color: white;
+    background-image: url('../Imagens/italiana.jpg');
+    width: 150px;
+    height: 150px;
+    
+}
+
+#card4{
+    color: white;
+    background-image: url('../Imagens/francesa.jpg');
+    width: 150px;
+    height: 150px;
+    
+}
+
+#card5{
+    color: white;
+    background-image: url('../Imagens/japonesa.jpg');
+    width: 150px;
+    height: 150px;
+    
+}
+
+#card6{
+    color: white;
+    background-image: url('../Imagens/mexicano.jpg');
+    width: 150px;
+    height: 150px;
+    
+}
+
+#card7{
+    color: white;
+    background-image: url('../Imagens/tailandesa.jpg');
+    width: 150px;
+    height: 150px;
+    
+}
+
+#card8{
+    color: white;
+    background-image: url('../Imagens/nigeriana.jpg');
+    width: 150px;
+    height: 150px;
+    
+}
+
+.center-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .center-title {
+    text-align: center;
+    margin: 0;
+  }

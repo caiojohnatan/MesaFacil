@@ -1,0 +1,160 @@
+<ion-content class="background" [fullscreen]="true">
+  <ion-header class="header" collapse="condense">
+    <ion-toolbar>
+      <ion-app>
+        <ion-menu  contentId="main-content">
+        
+            <ion-toolbar color="tertiary">
+              <ion-title>Menu Content</ion-title>
+            </ion-toolbar>
+         
+          <ion-content class="ion-padding">This is the menu content.</ion-content>
+        </ion-menu >
+        <div class="ion-page" id="main-content">
+          
+            <ion-toolbar>
+              <ion-buttons slot="start">
+                <ion-menu-button color="warning"></ion-menu-button>
+              </ion-buttons>
+              <ion-searchbar animated="true" color="medium" placeholder="Pesquisar"></ion-searchbar>
+            </ion-toolbar>
+          
+          <ion-content class="ion-padding"> Tap the button in the toolbar to open the menu. </ion-content>
+        </div>
+      </ion-app>
+    </ion-toolbar>
+
+  </ion-header>
+  
+  <ion-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-card color="primary" (click)="onCardClick('Card 1')" id="card1" class="center-card">
+            <ion-card-header class="center-title">
+              <ion-card-title>Todos</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col size="6">
+          <ion-card color="primary" (click)="onCardClick('Card 2')" class="center-card" id="card2">
+            <ion-card-header>
+              <ion-card-title>Brasileira</ion-card-title>
+
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  
+    <div class="spacer"></div>
+  
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-card color="primary" (click)="onCardClick('Card 3')" class="center-card" id="card3">
+            <ion-card-header>
+              <ion-card-title>Italiana</ion-card-title>
+
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col size="6">
+          <ion-card color="primary" (click)="onCardClick('Card 4')" class="center-card" id="card4">
+            <ion-card-header>
+              <ion-card-title>Francesa</ion-card-title>
+
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  
+    
+    <div class="spacer"></div>
+  
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-card color="primary" (click)="onCardClick('Card 5')" class="center-card" id="card5">
+            <ion-card-header>
+              <ion-card-title>Japonesa</ion-card-title>
+
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col size="6">
+          <ion-card color="primary" (click)="onCardClick('Card 6')" class="center-card" id="card6">
+            <ion-card-header>
+              <ion-card-title>Mexicana</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  
+
+    <div class="spacer"></div>
+  
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-card color="primary" (click)="onCardClick('Card 7')" class="center-card" id="card7">
+            <ion-card-header>
+              <ion-card-title>Tailandesa</ion-card-title>
+
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col size="6">
+          <ion-card color="primary" (click)="onCardClick('Card 8')" class="center-card" id="card8">
+            <ion-card-header>
+              <ion-card-title>Nigeriana</ion-card-title>
+      
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    
+  </ion-content>
+  
+
+  
+
+    </ion-content>
+
+    <ion-footer [translucent]="true">
+      <ion-toolbar >
+        <ion-tabs>
+          <ion-tab-bar color="dark" slot="bottom">
+           
+            <ion-tab-button color="warning" tab="home">
+              <ion-icon color="warning" name="play-circle"></ion-icon>
+              <ion-text color="warning">
+              Listen Now</ion-text>
+            </ion-tab-button>
+            <ion-tab-button color="warning" tab="radio">
+              <ion-icon color="warning" name="radio"></ion-icon>
+              <ion-text color="warning">
+                Radio</ion-text>
+           
+            </ion-tab-button>
+            <ion-tab-button color="warning" tab="library">
+              <ion-icon color="warning" name="library"></ion-icon>
+              <ion-text color="warning">
+                Library</ion-text>
+         
+            </ion-tab-button>
+            <ion-tab-button color="warning" tab="search">
+              <ion-icon color="warning" name="search"></ion-icon>
+              <ion-text color="warning">
+                Search</ion-text>
+            
+            </ion-tab-button>
+           
+          </ion-tab-bar>
+        </ion-tabs>
+      </ion-toolbar>
+    </ion-footer>
